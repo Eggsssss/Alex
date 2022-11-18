@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Roboto:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: cadetblue;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Creepster', cursive;
+}
+
+#game {
+    display: flex;
+    background-color: blueviolet;
+}
+
+.card {
+    width: 160px;
+    height: 120px;
+    background-color: crimson;
+    border-left: solid rgb(133, 52, 52) 10px;
+    border-right: solid rgb(43, 194, 75) 10px;
+   border-top: solid rgb(77, 19, 19) 10px;
+    border-bottom: solid rgb(5, 247, 247) 10px;
+    text-align: center;
+    font-size: 100px;
+    margin: 5px;
+    padding: 10px;
+    line-height: 120px;
+}
